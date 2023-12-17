@@ -12,8 +12,18 @@
 6. Далее поднимаем python сервер:
 
 - `cd flask-server` - переходим в папку flask-server
+- `python3 -m venv venv` - создаём виртуальную среду
 - `. venv/bin/activate` - активируем виртуальное окружение
+  
+  Устанавливаем необходимые пакеты:
+- `pip install flask`
+- `pip install -U flask-cors`  
+- `pip install autokeras`
+- `pip install tensorflow`
+- `pip insatll numpy`
+- `pip install pandas`
+  
 - `cd ..` - поднимаемся в корневой каталог
 - `python3 flask-server/server.py` -  запускаем сервер flask
 
-6. В браузере переходим на страницу `localhost:3000`
+1. В браузере переходим на страницу `localhost:3000`
